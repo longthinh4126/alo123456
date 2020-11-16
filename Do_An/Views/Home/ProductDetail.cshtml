@@ -1,0 +1,91 @@
+﻿@model Do_An.Models.Product
+@{
+    ViewBag.Title = "ProductDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Bootstrap -->
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
+
+<!-- Slick -->
+<link type="text/css" rel="stylesheet" href="/css/slick.css" />
+<link type="text/css" rel="stylesheet" href="/css/slick-theme.css" />
+
+<!-- nouislider -->
+<link type="text/css" rel="stylesheet" href="/css/nouislider.min.css" />
+
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+<!-- Custom stlylesheet -->
+<link type="text/css" rel="stylesheet" href="/css/style.css" />
+<div class="section">
+    @using (@Html.BeginForm("AddToCart", "Cart", method: FormMethod.Post))
+    {
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- Product main img -->
+            <div class="col-md-5 col-md-push-2">
+                <div id="product-main-img">
+                    <div class="product-preview">
+                        <img src="@Url.Content(Model.Image)" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /Product main img -->
+            <!-- Product details -->
+            <div class="col-md-5">
+                <div class="product-details">
+                    <h2 class="product-name">@Model.Name</h2>
+                    <div>
+                        <h3 class="product-price">@Model.Gia </h3>
+                        <span class="product-available">Còn hàng</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    @*<div class="product-options">
+                        <label>
+                            Color
+                            <select class="input-select">
+                                <option value="0">Red</option>
+                            </select>
+                        </label>
+                    </div>*@
+                    @using (Html.BeginForm("AddToCart", "Cart", method: FormMethod.Get))
+                    {
+                    <div class="add-to-cart">
+                        <div class="qty-label">
+                            Số lượng
+                            <div class="input-number">
+                                <input type="number" name="Quantity" value="1">
+                                <span class="qty-up">+</span>
+                                <span class="qty-down">-</span>
+                            </div>
+                        </div>
+                        <input type="hidden" value="@Model.ID" name="ID" />
+                        <input class="add-to-cart-btn" type="submit" value="Thêm vào giỏ" />
+                    </div>
+                    }
+                    <ul class="product-links">
+                        <li>Category:</li>
+                        <li><a href="#">@Model.Type.Name</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- /Product details -->
+
+        </div>
+        <!-- /row -->
+    </div>
+    }
+    <!-- /container -->
+</div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/nouislider.min.js"></script>
+<script src="/js/jquery.zoom.min.js"></script>
+<script src="/js/main.js"></script>
+

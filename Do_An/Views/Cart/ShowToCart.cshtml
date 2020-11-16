@@ -1,0 +1,65 @@
+﻿@model Do_An.Models.Cart
+@{
+    ViewBag.Title = "ShowToCart";
+    Layout = "~/Views/Shared/_CartLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h2 class="m-0 font-weight-bold text-dark">Chi tiết sản phẩm</h2>
+        </div>
+        <div class="card-body">
+            @if (Model.Items != null)
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Tên</th>
+                                <th>Giá</th>
+                                <th>Ảnh</th>
+                                <th>Số lượng</th>
+                                <th>Số tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ double finaltotal = 0;}
+                            @foreach (var item in Model.Items)
+                            {
+                                double total = Convert.ToDouble(item._shopProduct.Gia * item._shopQuantity);
+                                <tr>
+                                    <td>@Html.DisplayFor(model => item._shopProduct.Name)</td>
+                                    <td>@Html.DisplayFor(model => item._shopProduct.Gia)</td>
+                                    <td><img src="@Url.Content(item._shopProduct.Image)" style="width:100px; height:100px" /></td>
+                                    <td>
+                                        @using (Html.BeginForm("Update_Quantity", "Cart"))
+                                        {
+                                            <input type="hidden" value="@item._shopProduct.ID" name="ID" />
+                                            <input type="number" value="@Html.DisplayFor(Model => item._shopQuantity)" name="Quantity" @*onclick="location.value='Update_Quantity'" *@ />
+                                            <input type="submit" class="btn btn-success btn-circle fa fa-refresh" value="" />
+                                        }
+                                    </td>
+                                    <td>@total</td>
+                                    <td>
+                                        <a href="@Url.Action("DeleteCart", "Cart" ,new {id=item._shopProduct.ID} )" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                                finaltotal += total;
+                            }
+                                <tr> 
+                                    <td>Tổng tiền: @finaltotal</td>
+                                    <td><a class="btn btn-primary" href="@Url.Action("Checkout","Cart")">Thanh toán</a></td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <h1>Khong co don hang</h1>
+            }
+        </div>
+    </div>
+</div>

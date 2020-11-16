@@ -1,0 +1,131 @@
+﻿@model IEnumerable<Do_An.Models.Info>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div id="home" class="first-section" style="background-image:url('/images/slider-01.jpg')">
+                <div class="dtab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 text-right">
+                                <div class="big-tagline">
+                                    <h2><strong>Laptop</strong></h2>
+                                    <p class="lead">Đến với cửa hàng của chúng tôi, bạn sẽ tìm được tất cả gear tốt nhất. </p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="@Url.Action("Laptop", "Home")" class="hover-btn-new"><span>Xem Thêm</span></a>
+                                </div>
+                            </div>
+                        </div><!-- end row -->
+                    </div><!-- end container -->
+                </div>
+            </div><!-- end section -->
+        </div>
+        <div class="carousel-item">
+            <div id="home" class="first-section" style="background-image:url('/images/mousewall.jpg');">
+                <div class="dtab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 text-left">
+                                <div class="big-tagline">
+                                    <h2 data-animation="animated zoomInRight">Tìm <strong>Chuột</strong></h2>
+                                    <p class="lead" data-animation="animated fadeInLeft">Đến với cửa hàng của chúng tôi, bạn sẽ tìm được tất cả gear tốt nhất. </p>
+                                    @*@<a href="#" class="hover-btn-new"><span>Contact Us</span></a>*@
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="@Url.Action("Mouse", "Home")" class="hover-btn-new"><span>Xem Thêm</span></a>
+                                </div>
+                            </div>
+                        </div><!-- end row -->
+                    </div><!-- end container -->
+                </div>
+            </div><!-- end section -->
+        </div>
+        <div class="carousel-item">
+            <div id="home" class="first-section" style="background-image:url('/images/headphonewall.jpg');">
+                <div class="dtab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 text-center">
+                                <div class="big-tagline">
+                                    <h2 data-animation="animated zoomInRight">Tìm <strong>Tai nghe</strong></h2>
+                                    <p class="lead" data-animation="animated fadeInLeft">
+                                        Đến với cửa hàng của chúng tôi, bạn sẽ tìm được tất cả gear tốt nhất.
+                                    </p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="@Url.Action("Headphone", "Home")" class="hover-btn-new"><span>Xem Thêm</span></a>
+                                </div>
+                            </div>
+                        </div><!-- end row -->
+                    </div><!-- end container -->
+                </div>
+            </div><!-- end section -->
+        </div>
+        <!-- Left Control -->
+        <a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- Right Control -->
+        <a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+
+<div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Our Teams</h3>
+        </div><!-- end title -->
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="testi-carousel owl-carousel owl-theme">
+                    <div class="testimonial clearfix">
+                        <div class="desc">
+                            <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                          
+                        </div>
+                        <div class="testi-meta">
+                            <a href="https://www.facebook.com/toilafat"><img src="~/images/testi_01.png" alt="" class="img-fluid"></a>
+                            <h4>Đặng Hòa Đức Phát</h4>
+                        </div>
+                        <!-- end testi-meta -->
+                    </div>
+                    <!-- end testimonial -->
+                    <div class="testimonial clearfix">
+                        <div class="desc">
+                            <h3><i class="fa fa-quote-left"></i> Design Web</h3>
+                            
+                        </div>
+                        <div class="testi-meta">
+                            <a href="https://www.facebook.com/profile.php?id=100013841132161"><img src="~/images/testi_01.png" alt="" class="img-fluid"></a>
+                            <h4>Huỳnh Thiện Chí </h4>
+                        </div>
+                        <!-- end testi-meta -->
+                    </div>
+                    <!-- end testimonial -->
+                    <div class="testimonial clearfix">
+                        <div class="desc">
+                            <h3><i class="fa fa-quote-left"></i> Coder</h3>
+                            
+                        </div>
+                        <div class="testi-meta">
+                            <a href="https://www.facebook.com/thinh.truong.94043/"><img src="~/images/testi_01.png" alt="" class="img-fluid"></a>
+                            <h4>Trương Nguyễn Long Thịnh </h4>
+                        </div>
+                        <!-- end testi-meta -->
+                    </div>
+                </div><!-- end carousel -->
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end section -->

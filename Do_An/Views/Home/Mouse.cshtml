@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Do_An.Models.Product>
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    @{ Html.RenderAction("ShowProduct", new { typeid = 2 }); }
+    <div id="newsletter" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="newsletter">
+                        <ul class="newsletter-follow">
+                            <li>@Ajax.ActionLink("1", "ShowProduct", "Home", new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                            <li>@Ajax.ActionLink("2", "ShowProduct", "Home", new { typeid = 2, page = 1 }, new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                            <li>@Ajax.ActionLink("3", "ShowProduct", "Home", new { typeid = 2, page = 2 }, new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                            <li>@Ajax.ActionLink("4", "ShowProduct", "Home", new { typeid = 2, page = 3 }, new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                            <li>@Ajax.ActionLink("5", "ShowProduct", "Home", new { typeid = 2, page = 4 }, new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                            <li>@Ajax.ActionLink("6", "ShowProduct", "Home", new { typeid = 2, page = 5 }, new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                            <li>@Ajax.ActionLink("7", "ShowProduct", "Home", new { typeid = 2, page = 6 }, new AjaxOptions { UpdateTargetId = "work-grip", HttpMethod = "GET" })</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+</body>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/nouislider.min.js"></script>
+<script src="/js/jquery.zoom.min.js"></script>
+<script src="/js/main.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
+
+<!-- Slick -->
+<link type="text/css" rel="stylesheet" href="/css/slick.css" />
+<link type="text/css" rel="stylesheet" href="/css/slick-theme.css" />
+
+<!-- nouislider -->
+<link type="text/css" rel="stylesheet" href="/css/nouislider.min.css" />
+
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+<!-- Custom stlylesheet -->
+<link type="text/css" rel="stylesheet" href="/css/style.css" />
+

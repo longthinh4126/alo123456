@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Do_An.Models.Customer>
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Người dùng</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Danh sách người dùng</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên</th>
+                            <th>Tên User</th>
+                            <th>Mật khẩu</th>
+                            <th>Email</th>
+                            <th>Số điện thoại</th>
+                            <th>Địa chỉ</th>
+                            <th>Quyền</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên</th>
+                            <th>Tên User</th>
+                            <th>Mật khẩu</th>
+                            <th>Email</th>
+                            <th>Số điện thoại</th>
+                            <th>Địa chỉ</th>
+                            <th>Quyền</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>@Html.DisplayFor(Model => item.ID)</td>
+                            <td>@Html.DisplayFor(Model => item.Name)</td>
+                            <td>@Html.DisplayFor(Model => item.UserName)</td>
+                            <td>@Html.DisplayFor(Model => item.Password)</td>
+                            <td>@Html.DisplayFor(Model => item.Email)</td>
+                            <td>@Html.DisplayFor(Model => item.SDT)</td>
+                            <td>@Html.DisplayFor(Model => item.DiaChi)</td>
+                            <td>@Html.DisplayFor(Model => item.Quyen)</td>
+                            <td><a class="btn btn-primary btn-circle" style="color:black"><i class="fa fa-trash"></i>+</a></td>
+                            <td><a class="btn btn-success btn-circle"><i class="fa fa-trash"></i>s</a></td>
+                            <td><a href="#" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i>-</a></td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+

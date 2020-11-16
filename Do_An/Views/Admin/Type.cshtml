@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Do_An.Models.Type>
+@{
+    ViewBag.Title = "Type";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <h1 class="h3 mb-2 text-gray-800">Loại</h1>
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Danh sách loại</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tên</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tên</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                            <tr>
+                                <td>@Html.DisplayFor(Model => item.ID)</td>
+                                <td>@Html.DisplayFor(Model => item.Name)</td>
+                                <td><a href="@Url.Action("ThemType", "Admin")" class="btn btn-primary btn-circle" style="color:black"><i class="fa fa-trash"></i>+</a></td>
+                                <td><a href="@Url.Action("SuaType", "Admin", new { id = item.ID})" class="btn btn-success btn-circle"><i class="fa fa-trash"></i>s</a></td>
+                                <td><a href="@Url.Action("XoaType", "Admin", new { id = item.ID})" class="btn btn-danger btn-circle"><i class="fa fa-trash"></i>-</a></td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+

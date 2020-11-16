@@ -1,0 +1,200 @@
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.csproj.CoreCompileInputs.cache
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Do_An.dll.config
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Do_An.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Do_An.pdb
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\csc.exe
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\csc.exe.config
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\csc.rsp
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\csi.exe
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\csi.rsp
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\System.AppContext.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\vbc.exe
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\vbc.exe.config
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\vbc.rsp
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\VBCSCompiler.exe
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Antlr3.Runtime.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\EntityFramework.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\EntityFramework.SqlServer.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Newtonsoft.Json.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Owin.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Helpers.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Mvc.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Optimization.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Razor.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.WebPages.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.WebPages.Razor.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\WebGrease.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Helpers.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Mvc.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Optimization.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.Razor.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.WebPages.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Web.WebPages.Razor.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Newtonsoft.Json.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Antlr3.Runtime.pdb
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\EntityFramework.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\EntityFramework.SqlServer.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.pdb
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Data.Schema.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Data.Schema.ScriptDom.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Data.Schema.Utilities.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\System.Data.SqlServerCe.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Data.Schema.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\Microsoft.Data.Schema.ScriptDom.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\PagedList.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\PagedList.Mvc.dll
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\PagedList.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\bin\PagedList.Mvc.xml
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAn.resources
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.csproj.GenerateResource.cache
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAnWeb.resources
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAnWeb2.resources
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAnWeb3.resources
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.Migrations.d1.resources
+C:\Users\Long Thinh\source\repos\Do_An\Do_An\obj\Debug\Do_An.csprojResolveAssemblyReference.cache
+D:\Do_An\Do_An\bin\Do_An.dll.config
+D:\Do_An\Do_An\bin\Do_An.dll
+D:\Do_An\Do_An\bin\Do_An.pdb
+D:\Do_An\Do_An\bin\roslyn\csc.exe
+D:\Do_An\Do_An\bin\roslyn\csc.exe.config
+D:\Do_An\Do_An\bin\roslyn\csc.rsp
+D:\Do_An\Do_An\bin\roslyn\csi.exe
+D:\Do_An\Do_An\bin\roslyn\csi.rsp
+D:\Do_An\Do_An\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Do_An\Do_An\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Do_An\Do_An\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Do_An\Do_An\bin\roslyn\System.AppContext.dll
+D:\Do_An\Do_An\bin\roslyn\System.Collections.Immutable.dll
+D:\Do_An\Do_An\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Do_An\Do_An\bin\roslyn\System.IO.FileSystem.dll
+D:\Do_An\Do_An\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Do_An\Do_An\bin\roslyn\System.Reflection.Metadata.dll
+D:\Do_An\Do_An\bin\roslyn\vbc.exe
+D:\Do_An\Do_An\bin\roslyn\vbc.exe.config
+D:\Do_An\Do_An\bin\roslyn\vbc.rsp
+D:\Do_An\Do_An\bin\roslyn\VBCSCompiler.exe
+D:\Do_An\Do_An\bin\roslyn\VBCSCompiler.exe.config
+D:\Do_An\Do_An\bin\Antlr3.Runtime.dll
+D:\Do_An\Do_An\bin\EntityFramework.dll
+D:\Do_An\Do_An\bin\EntityFramework.SqlServer.dll
+D:\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Do_An\Do_An\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Do_An\Do_An\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Do_An\Do_An\bin\Microsoft.Data.Schema.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Google.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Do_An\Do_An\bin\Microsoft.Web.Infrastructure.dll
+D:\Do_An\Do_An\bin\Newtonsoft.Json.dll
+D:\Do_An\Do_An\bin\Owin.dll
+D:\Do_An\Do_An\bin\PagedList.dll
+D:\Do_An\Do_An\bin\PagedList.Mvc.dll
+D:\Do_An\Do_An\bin\System.Web.Helpers.dll
+D:\Do_An\Do_An\bin\System.Web.Mvc.dll
+D:\Do_An\Do_An\bin\System.Web.Optimization.dll
+D:\Do_An\Do_An\bin\System.Web.Razor.dll
+D:\Do_An\Do_An\bin\System.Web.WebPages.Deployment.dll
+D:\Do_An\Do_An\bin\System.Web.WebPages.dll
+D:\Do_An\Do_An\bin\System.Web.WebPages.Razor.dll
+D:\Do_An\Do_An\bin\WebGrease.dll
+D:\Do_An\Do_An\bin\Microsoft.Data.Schema.ScriptDom.dll
+D:\Do_An\Do_An\bin\Microsoft.Data.Schema.Utilities.dll
+D:\Do_An\Do_An\bin\System.Data.SqlServerCe.dll
+D:\Do_An\Do_An\bin\EntityFramework.xml
+D:\Do_An\Do_An\bin\EntityFramework.SqlServer.xml
+D:\Do_An\Do_An\bin\Microsoft.Data.Schema.xml
+D:\Do_An\Do_An\bin\PagedList.xml
+D:\Do_An\Do_An\bin\PagedList.Mvc.xml
+D:\Do_An\Do_An\bin\System.Web.Helpers.xml
+D:\Do_An\Do_An\bin\System.Web.Mvc.xml
+D:\Do_An\Do_An\bin\System.Web.Optimization.xml
+D:\Do_An\Do_An\bin\System.Web.Razor.xml
+D:\Do_An\Do_An\bin\System.Web.WebPages.xml
+D:\Do_An\Do_An\bin\System.Web.WebPages.Deployment.xml
+D:\Do_An\Do_An\bin\System.Web.WebPages.Razor.xml
+D:\Do_An\Do_An\bin\Newtonsoft.Json.xml
+D:\Do_An\Do_An\bin\Antlr3.Runtime.pdb
+D:\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Do_An\Do_An\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Do_An\Do_An\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Google.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Do_An\Do_An\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Do_An\Do_An\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Do_An\Do_An\bin\Microsoft.Data.Schema.ScriptDom.xml
+D:\Do_An\Do_An\obj\Debug\Do_An.csprojResolveAssemblyReference.cache
+D:\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAn.resources
+D:\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAnWeb.resources
+D:\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAnWeb2.resources
+D:\Do_An\Do_An\obj\Debug\Do_An.Migrations.DoAnWeb3.resources
+D:\Do_An\Do_An\obj\Debug\Do_An.Migrations.d1.resources
+D:\Do_An\Do_An\obj\Debug\Do_An.csproj.GenerateResource.Cache
+D:\Do_An\Do_An\obj\Debug\Do_An.csproj.CoreCompileInputs.cache
+D:\Do_An\Do_An\obj\Debug\Do_An.dll
+D:\Do_An\Do_An\obj\Debug\Do_An.pdb

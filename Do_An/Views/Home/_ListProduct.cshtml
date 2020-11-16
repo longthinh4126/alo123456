@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Do_An.Models.Product>
+<div class="row">
+
+    <div class="row text-center" id="work-grip">
+        @foreach (var item in Model as IEnumerable<Do_An.Models.Product>)
+        {
+            <div class="col-md-3">
+                <div class="pricing-table pricing-table-highlighted">
+                    <div class="pricing-table-header grd1">
+                        <a href="@Url.Action("ProductDetail", "Home" , new {id=item.ID})">
+                            <img src="@Url.Content(item.Image)" style="width: 400px; height:400px" />
+                        </a>
+                    </div>
+                    <div class="pricing-table-space"></div>
+                    <div class="pricing-table-features">
+                        <p><i class="fa fa-file-text-o"></i> <strong>@Html.DisplayFor(Model => item.Name)</strong></p>
+                        <p><i class="fa fa-money"></i><strong>@Html.DisplayFor(Model => item.Gia)</strong></p>
+                    </div>
+
+                  
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

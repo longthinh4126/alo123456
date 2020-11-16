@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Do_An.Models.Order>
+@{
+    ViewBag.Title = "Order";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <h1 class="h3 mb-2 text-gray-800">Đơn hàng</h1>
+        <!-- DataTales Example -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Danh sách đơn hàng</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Ngày tạo</th>
+                                <th>Note</th>
+                                <th>Trạng thái</th>
+                                <th>ID người dùng</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>ID</th>
+                                <th>Ngày tạo</th>
+                                <th>Note</th>
+                                <th>Trạng thái</th>
+                                <th>ID người dùng</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(Model => item.ID)</td>
+                                    <td>@Html.DisplayFor(Model => item.NgayTao)</td>
+                                    <td>@Html.DisplayFor(Model => item.Note)</td>
+                                    <td>@Html.DisplayFor(Model => item.TrangThai)</td>
+                                    <td>@Html.DisplayFor(Model => item.CusID)</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
